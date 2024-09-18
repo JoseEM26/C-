@@ -1,0 +1,12 @@
+2024-09-14 15:15:19,441 [1] INFO log4net.Program - bienvenidos a log4net
+2024-09-14 15:23:11,649 [1] INFO log4net.Program - bienvenidos a log4net
+2024-09-14 15:24:45,090 [1] INFO log4net.Program - bienvenidos a log4net
+2024-09-14 15:25:27,581 [1] INFO log4net.Program - bienvenidos a log4net
+2024-09-14 15:27:38,138 [1] INFO log4net.Program - bienvenidos a log4net
+2024-09-14 15:27:38,143 [1] ERROR log4net.Program - System.Exception: error Exception
+   en log4net.Program.Main(String[] args) en C:\Users\ADMIN\Pictures\C#\log4net\log4net\Program.cs:línea 28
+2024-09-14 15:27:38,178 [1] ERROR log4net.Program - error Exception
+2024-09-14 15:28:13,968 [1] INFO log4net.Program - bienvenidos a log4net
+2024-09-14 15:28:13,972 [1] ERROR log4net.Program - System.Exception: error Exception
+   en log4net.Program.Main(String[] args) en C:\Users\ADMIN\Pictures\C#\log4net\log4net\Program.cs:línea 28
+2024-09-14 15:28:13,987 [1] ERROR log4net.Program - error Exception
