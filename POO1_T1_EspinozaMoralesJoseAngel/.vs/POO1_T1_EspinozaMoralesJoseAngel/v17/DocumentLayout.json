@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Pictures\\C#\\POO1_T1_EspinozaMoralesJoseAngel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB5811D-673C-4C03-919D-D837629C4C90}|POO1_T1_EspinozaMoralesJoseAngel\\POO1_T1_EspinozaMoralesJoseAngel.csproj|c:\\users\\admin\\pictures\\c#\\poo1_t1_espinozamoralesjoseangel\\poo1_t1_espinozamoralesjoseangel\\views\\planillacontrolador\\listado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAB5811D-673C-4C03-919D-D837629C4C90}|POO1_T1_EspinozaMoralesJoseAngel\\POO1_T1_EspinozaMoralesJoseAngel.csproj|solutionrelative:poo1_t1_espinozamoralesjoseangel\\views\\planillacontrolador\\listado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB5811D-673C-4C03-919D-D837629C4C90}|POO1_T1_EspinozaMoralesJoseAngel\\POO1_T1_EspinozaMoralesJoseAngel.csproj|c:\\users\\admin\\pictures\\c#\\poo1_t1_espinozamoralesjoseangel\\poo1_t1_espinozamoralesjoseangel\\controllers\\planillacontroladorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB5811D-673C-4C03-919D-D837629C4C90}|POO1_T1_EspinozaMoralesJoseAngel\\POO1_T1_EspinozaMoralesJoseAngel.csproj|solutionrelative:poo1_t1_espinozamoralesjoseangel\\controllers\\planillacontroladorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB5811D-673C-4C03-919D-D837629C4C90}|POO1_T1_EspinozaMoralesJoseAngel\\POO1_T1_EspinozaMoralesJoseAngel.csproj|c:\\users\\admin\\pictures\\c#\\poo1_t1_espinozamoralesjoseangel\\poo1_t1_espinozamoralesjoseangel\\views\\planillacontrolador\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAB5811D-673C-4C03-919D-D837629C4C90}|POO1_T1_EspinozaMoralesJoseAngel\\POO1_T1_EspinozaMoralesJoseAngel.csproj|solutionrelative:poo1_t1_espinozamoralesjoseangel\\views\\planillacontrolador\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Pictures\\C#\\POO1_T1_EspinozaMoralesJoseAngel\\POO1_T1_EspinozaMoralesJoseAngel\\Views\\PlanillaControlador\\Create.cshtml",
+              "RelativeDocumentMoniker": "POO1_T1_EspinozaMoralesJoseAngel\\Views\\PlanillaControlador\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Pictures\\C#\\POO1_T1_EspinozaMoralesJoseAngel\\POO1_T1_EspinozaMoralesJoseAngel\\Views\\PlanillaControlador\\Create.cshtml",
+              "RelativeToolTip": "POO1_T1_EspinozaMoralesJoseAngel\\Views\\PlanillaControlador\\Create.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T19:12:31.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Listado.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Pictures\\C#\\POO1_T1_EspinozaMoralesJoseAngel\\POO1_T1_EspinozaMoralesJoseAngel\\Views\\PlanillaControlador\\Listado.cshtml",
+              "RelativeDocumentMoniker": "POO1_T1_EspinozaMoralesJoseAngel\\Views\\PlanillaControlador\\Listado.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Pictures\\C#\\POO1_T1_EspinozaMoralesJoseAngel\\POO1_T1_EspinozaMoralesJoseAngel\\Views\\PlanillaControlador\\Listado.cshtml",
+              "RelativeToolTip": "POO1_T1_EspinozaMoralesJoseAngel\\Views\\PlanillaControlador\\Listado.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowDMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T19:09:48.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlanillaControladorController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Pictures\\C#\\POO1_T1_EspinozaMoralesJoseAngel\\POO1_T1_EspinozaMoralesJoseAngel\\Controllers\\PlanillaControladorController.cs",
+              "RelativeDocumentMoniker": "POO1_T1_EspinozaMoralesJoseAngel\\Controllers\\PlanillaControladorController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Pictures\\C#\\POO1_T1_EspinozaMoralesJoseAngel\\POO1_T1_EspinozaMoralesJoseAngel\\Controllers\\PlanillaControladorController.cs",
+              "RelativeToolTip": "POO1_T1_EspinozaMoralesJoseAngel\\Controllers\\PlanillaControladorController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAADwv3sAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T18:53:56.561Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
