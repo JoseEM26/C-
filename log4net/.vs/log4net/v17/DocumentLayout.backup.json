@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Pictures\\C#\\log4net\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\log4net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1691271C-162C-4A46-B841-66D1F8ABECE7}|log4net\\log4net.csproj|C:\\Users\\ADMIN\\Pictures\\C#\\log4net\\log4net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1691271C-162C-4A46-B841-66D1F8ABECE7}|log4net\\log4net.csproj|solutionrelative:log4net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1691271C-162C-4A46-B841-66D1F8ABECE7}|log4net\\log4net.csproj|c:\\users\\admin\\pictures\\c#\\log4net\\log4net\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{1691271C-162C-4A46-B841-66D1F8ABECE7}|log4net\\log4net.csproj|solutionrelative:log4net\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1691271C-162C-4A46-B841-66D1F8ABECE7}|log4net\\log4net.csproj|C:\\Users\\ADMIN\\Pictures\\C#\\log4net\\log4net\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1691271C-162C-4A46-B841-66D1F8ABECE7}|log4net\\log4net.csproj|solutionrelative:log4net\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{184AAB43-B501-430D-BF55-D3B740ED2026}|log4net\\log4net.csproj|c:\\users\\admin\\source\\repos\\log4net\\log4net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184AAB43-B501-430D-BF55-D3B740ED2026}|log4net\\log4net.csproj|solutionrelative:log4net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,39 +20,18 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Pictures\\C#\\log4net\\log4net\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\log4net\\log4net\\Program.cs",
               "RelativeDocumentMoniker": "log4net\\Program.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Pictures\\C#\\log4net\\log4net\\Program.cs*",
-              "RelativeToolTip": "log4net\\Program.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCMAAAAPAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\log4net\\log4net\\Program.cs",
+              "RelativeToolTip": "log4net\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T20:04:37.016Z",
+              "WhenOpened": "2024-09-14T19:29:30.718Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Pictures\\C#\\log4net\\log4net\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "log4net\\Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Pictures\\C#\\log4net\\log4net\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "log4net\\Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T19:53:06.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "log4net.config",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Pictures\\C#\\log4net\\log4net\\log4net.config",
-              "RelativeDocumentMoniker": "log4net\\log4net.config",
-              "ToolTip": "C:\\Users\\ADMIN\\Pictures\\C#\\log4net\\log4net\\log4net.config",
-              "RelativeToolTip": "log4net\\log4net.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-14T19:47:30.65Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
