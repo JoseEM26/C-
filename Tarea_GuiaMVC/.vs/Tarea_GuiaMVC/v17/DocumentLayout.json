@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBA2EB8E-3146-4753-BBA3-7AC33049B346}|Tarea4_GuiaMVC\\Tarea4_GuiaMVC.csproj|c:\\users\\admin\\source\\repos\\tarea_guiamvc\\tarea4_guiamvc\\views\\cliente\\pedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBA2EB8E-3146-4753-BBA3-7AC33049B346}|Tarea4_GuiaMVC\\Tarea4_GuiaMVC.csproj|solutionrelative:tarea4_guiamvc\\views\\cliente\\pedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D11252ED-0E67-4348-911C-951D53E065A6}|Tarea6_GuiaMVC\\Tarea6_GuiaMVC.csproj|c:\\users\\admin\\source\\repos\\tarea_guiamvc\\tarea6_guiamvc\\views\\consultanegocios\\pedidocliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D11252ED-0E67-4348-911C-951D53E065A6}|Tarea6_GuiaMVC\\Tarea6_GuiaMVC.csproj|solutionrelative:tarea6_guiamvc\\views\\consultanegocios\\pedidocliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBA2EB8E-3146-4753-BBA3-7AC33049B346}|Tarea4_GuiaMVC\\Tarea4_GuiaMVC.csproj|C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\tarea4_guiamvc\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBA2EB8E-3146-4753-BBA3-7AC33049B346}|Tarea4_GuiaMVC\\Tarea4_GuiaMVC.csproj|solutionrelative:tarea4_guiamvc\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D11252ED-0E67-4348-911C-951D53E065A6}|Tarea6_GuiaMVC\\Tarea6_GuiaMVC.csproj|C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\tarea6_guiamvc\\views\\consultanegocios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D11252ED-0E67-4348-911C-951D53E065A6}|Tarea6_GuiaMVC\\Tarea6_GuiaMVC.csproj|solutionrelative:tarea6_guiamvc\\views\\consultanegocios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBA2EB8E-3146-4753-BBA3-7AC33049B346}|Tarea4_GuiaMVC\\Tarea4_GuiaMVC.csproj|C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\tarea4_guiamvc\\models\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBA2EB8E-3146-4753-BBA3-7AC33049B346}|Tarea4_GuiaMVC\\Tarea4_GuiaMVC.csproj|solutionrelative:tarea4_guiamvc\\models\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBA2EB8E-3146-4753-BBA3-7AC33049B346}|Tarea4_GuiaMVC\\Tarea4_GuiaMVC.csproj|C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\tarea4_guiamvc\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBA2EB8E-3146-4753-BBA3-7AC33049B346}|Tarea4_GuiaMVC\\Tarea4_GuiaMVC.csproj|solutionrelative:tarea4_guiamvc\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBA2EB8E-3146-4753-BBA3-7AC33049B346}|Tarea4_GuiaMVC\\Tarea4_GuiaMVC.csproj|C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\tarea4_guiamvc\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBA2EB8E-3146-4753-BBA3-7AC33049B346}|Tarea4_GuiaMVC\\Tarea4_GuiaMVC.csproj|solutionrelative:tarea4_guiamvc\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D11252ED-0E67-4348-911C-951D53E065A6}|Tarea6_GuiaMVC\\Tarea6_GuiaMVC.csproj|C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\tarea6_guiamvc\\controllers\\consultanegocioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D11252ED-0E67-4348-911C-951D53E065A6}|Tarea6_GuiaMVC\\Tarea6_GuiaMVC.csproj|solutionrelative:tarea6_guiamvc\\controllers\\consultanegocioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pedido.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea4_GuiaMVC\\Views\\Cliente\\Pedido.cshtml",
-              "RelativeDocumentMoniker": "Tarea4_GuiaMVC\\Views\\Cliente\\Pedido.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea4_GuiaMVC\\Views\\Cliente\\Pedido.cshtml",
-              "RelativeToolTip": "Tarea4_GuiaMVC\\Views\\Cliente\\Pedido.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T03:33:22.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea4_GuiaMVC\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "Tarea4_GuiaMVC\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea4_GuiaMVC\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "Tarea4_GuiaMVC\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T03:23:31.311Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea6_GuiaMVC\\Views\\ConsultaNegocios\\Index.cshtml",
+              "RelativeDocumentMoniker": "Tarea6_GuiaMVC\\Views\\ConsultaNegocios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea6_GuiaMVC\\Views\\ConsultaNegocios\\Index.cshtml",
+              "RelativeToolTip": "Tarea6_GuiaMVC\\Views\\ConsultaNegocios\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T02:55:12.858Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea4_GuiaMVC\\Models\\AccesoDatos.cs",
-              "RelativeDocumentMoniker": "Tarea4_GuiaMVC\\Models\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea4_GuiaMVC\\Models\\AccesoDatos.cs",
-              "RelativeToolTip": "Tarea4_GuiaMVC\\Models\\AccesoDatos.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwDgAAAAaAAAAAAAAAA==",
+              "Title": "ConsultaNegociosController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea6_GuiaMVC\\Controllers\\ConsultaNegociosController.cs",
+              "RelativeDocumentMoniker": "Tarea6_GuiaMVC\\Controllers\\ConsultaNegociosController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea6_GuiaMVC\\Controllers\\ConsultaNegociosController.cs",
+              "RelativeToolTip": "Tarea6_GuiaMVC\\Controllers\\ConsultaNegociosController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T03:15:15.705Z"
+              "WhenOpened": "2024-10-05T02:51:47.234Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea4_GuiaMVC\\Models\\Pedido.cs",
-              "RelativeDocumentMoniker": "Tarea4_GuiaMVC\\Models\\Pedido.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea4_GuiaMVC\\Models\\Pedido.cs",
-              "RelativeToolTip": "Tarea4_GuiaMVC\\Models\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T03:13:25.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea4_GuiaMVC\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "Tarea4_GuiaMVC\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea4_GuiaMVC\\Models\\Cliente.cs",
-              "RelativeToolTip": "Tarea4_GuiaMVC\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T03:13:18.172Z"
+              "DocumentIndex": 0,
+              "Title": "PedidoCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea6_GuiaMVC\\Views\\ConsultaNegocios\\PedidoCliente.cshtml",
+              "RelativeDocumentMoniker": "Tarea6_GuiaMVC\\Views\\ConsultaNegocios\\PedidoCliente.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Tarea_GuiaMVC\\Tarea6_GuiaMVC\\Views\\ConsultaNegocios\\PedidoCliente.cshtml",
+              "RelativeToolTip": "Tarea6_GuiaMVC\\Views\\ConsultaNegocios\\PedidoCliente.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T02:49:04.071Z",
+              "EditorCaption": ""
             }
           ]
         }
