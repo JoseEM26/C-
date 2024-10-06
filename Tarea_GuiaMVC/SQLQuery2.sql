@@ -86,3 +86,142 @@ BEGIN
   INNER JOIN Categorias AS C ON C.IdCategoria=P.IdCategoria
   INNER JOIN Proveedores AS S ON P.IdProveedor=S.IdProveedor
   END
+
+  -------------------------------------------------
+  -------------------------------------------------
+  -------------------------------------------------
+  -------------------------------------------------
+  -------------------------------------------------
+  -------------------------------------------------
+  -------------------------------------------------
+  -------------------------------------------------
+  CREATE OR ALTER PROC USP_CATEGORIA_LISTAR
+  AS
+  BEGIN
+     SELECT C.IdCategoria,
+	        C.NombreCategoria
+	 FROM Categorias AS C
+  END
+
+   CREATE OR ALTER PROC USP_PROVEDOR_LISTAR
+  AS
+  BEGIN
+     SELECT P.IdProveedor, 
+	        P.NomProveedor,
+			P.NomContacto
+	 FROM Proveedores AS P
+  END
+  -------------------------------------------------
+EXEC USP_CRUD_PRODUCTO 
+'INSERTAR',
+12, 
+'', 
+0, 
+0,
+'',
+0,
+0
+--insert into Productos(
+-- NomProducto,
+--	   IdProveedor,
+--	   IdCategoria,
+--	   CantxUnidad,
+--	   PrecioUnidad,
+--	   UnidadesEnExistencia
+--) values(
+--'', 
+--1, 
+--2,
+--'',
+--0,
+--0
+--)
+
+select*from Productos
+
+  CREATE OR alter PROC USP_CRUD_PRODUCTO
+   @INDICADOR VARCHAR(30),
+   @IdProducto INT,
+   @NomProducto VARCHAR(40),
+   @IdProveedor INT,
+   @IdCategoria INT,
+   @CantxUnidad VARCHAR(20),
+   @PrecioUnidad DECIMAL,
+   @UnidadesEnExis SMALLINT,
+   @activo bit
+  AS
+  BEGIN
+
+
+     IF @INDICADOR='MOSTRARTODO'
+	 BEGIN
+	    SELECT IdProducto,
+		       NomProducto,
+			   IdCategoria,
+			   IdProveedor,
+			   CantxUnidad,
+			   PrecioUnidad,
+			   UnidadesEnExistencia
+		FROM Productos AS P
+		WHERE ACTIVO=1
+	 END
+
+
+     IF @INDICADOR='INSERTAR'
+	 BEGIN
+	   INSERT into Productos(
+	   NomProducto,
+	   IdProveedor,
+	   IdCategoria,
+	   CantxUnidad,
+	   PrecioUnidad,
+	   UnidadesEnExistencia,
+	   ACTIVO
+	   )VALUES
+	   (
+       @NomProducto     ,
+       @IdProveedor ,
+       @IdCategoria ,
+       @CantxUnidad ,
+       @PrecioUnidad ,
+       @UnidadesEnExis ,
+	   @activo
+	   )
+	 END
+
+	 IF @INDICADOR='ACTUALIZAR'
+	 BEGIN
+	   UPDATE Productos SET
+	   NomProducto =@NomProducto  ,
+	   IdCategoria =@IdProveedor  ,
+	   IdProveedor =@IdCategoria  ,
+	   CantxUnidad =@CantxUnidad  ,
+	   PrecioUnidad =@PrecioUnidad  ,
+	   UnidadesEnExistencia =@UnidadesEnExis
+	   WHERE Productos.IdProducto=@IdProducto
+	 END
+
+	  IF @INDICADOR='ELIMINAR'
+	 BEGIN
+	   UPDATE Productos SET ACTIVO=0 
+	   WHERE IdProducto=@IdProducto
+	 END
+
+	 IF @INDICADOR='lISTARDATOS'
+	 BEGIN
+	   SELECT IdProducto,
+	   NomProducto,
+	   IdCategoria,
+	   IdProveedor,
+	   CantxUnidad,
+	   PrecioUnidad,
+	   UnidadesEnExistencia
+	   FROM Productos
+	   WHERE IdProducto=@IdProducto AND
+	         ACTIVO=1
+	 END
+
+  END
+
+
+

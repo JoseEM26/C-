@@ -18,7 +18,8 @@ namespace Tarea6_GuiaMVC.Controllers
         }
         public ActionResult ProductoListar()
         {
-            var lista =from p in data.USP_PRODUCTOlISTAR() select p;
+            var lista =from p in data.USP_PRODUCTOlISTAR()
+                       select p;
             return View(lista.ToList());
         }
         public ActionResult ProductoNombreListar(string Nombre)

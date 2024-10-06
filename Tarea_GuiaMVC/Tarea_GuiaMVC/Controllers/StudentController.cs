@@ -33,7 +33,8 @@ namespace Tarea_GuiaMVC.Controllers
         }
         public ActionResult Create()
         {
-            return View();
+            var x = new Student();
+            return View(x);
         }
         [HttpPost]
         public ActionResult Create(Student s)
