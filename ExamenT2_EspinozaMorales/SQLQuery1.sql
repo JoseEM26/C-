@@ -1,6 +1,11 @@
-﻿ --Creacion de la base de datos
+﻿
+SET DATEFORMAT dmy;
+
+ --Creacion de la base de datos
 CREATE DATABASE SistemaTickets;
 USE SistemaTickets;
+
+
 
 -- Tabla Categoria
 CREATE TABLE Categoria (
@@ -70,7 +75,7 @@ CREATE TABLE Tickets (
 );
 
 -- Tabla Atenciones
-CREATE TABLE Atenciones (
+create TABLE Atenciones (
     TicketID INT,
     FechaProgramada DATE,
     ProveedorID INT,
@@ -78,14 +83,30 @@ CREATE TABLE Atenciones (
     TipoTicket VARCHAR(100),
     EstadoID INT,
     CostoAtencion DECIMAL(10, 2),
-    PRIMARY KEY (TicketID, FechaProgramada),
-    FOREIGN KEY (TicketID) REFERENCES Tickets(TicketID),
-    FOREIGN KEY (ProveedorID) REFERENCES Proveedor(ProveedorID),
-    FOREIGN KEY (ItemID) REFERENCES Item(ItemID)
+	VISIBILIDAD int
 );
 GO
 
 
+-- Inserciones para la tabla Atenciones
+INSERT INTO Atenciones (TicketID, FechaProgramada, ProveedorID, ItemID, TipoTicket, EstadoID, CostoAtencion)
+VALUES (1, '2024-01-15', 1, 1, 'Reparaci�n', 1, 1500.00);
+
+INSERT INTO Atenciones (TicketID, FechaProgramada, ProveedorID, ItemID, TipoTicket, EstadoID, CostoAtencion)
+VALUES (2, '2024-02-16', 2, 2, 'Mantenimiento', 2, 800.00);
+
+INSERT INTO Atenciones (TicketID, FechaProgramada, ProveedorID, ItemID, TipoTicket, EstadoID, CostoAtencion)
+VALUES (3, '2024-03-14', 3, 3, 'Reinstalaci�n', 3, 1200.00);
+
+INSERT INTO Atenciones (TicketID, FechaProgramada, ProveedorID, ItemID, TipoTicket, EstadoID, CostoAtencion)
+VALUES (4, '2024-04-24', 4, 4, 'Soluci�n de errores', 1, 2500.00);
+
+INSERT INTO Atenciones (TicketID, FechaProgramada, ProveedorID, ItemID, TipoTicket, EstadoID, CostoAtencion)
+VALUES (5, '2024-05-12', 5, 5, 'Mejora de red', 2, 1800.00);
+GO
+update Atenciones
+set VISIBILIDAD=1
+go
 -- Inserciones para la tabla Categoria
 INSERT INTO Categoria (Nombre, Descripcion) 
 VALUES ('Hardware', 'Componentes f�sicos de los sistemas inform�ticos');
@@ -191,22 +212,6 @@ VALUES (4, 4, '2024-04-22', '2024-04-25', 'Desk004', 'Error en aplicaci�n ERP'
 
 INSERT INTO Tickets (ItemID, AgenciaID, FechaCreacion, FechaCierre, ServiceDesk, Resumen, EstadoID)
 VALUES (5, 5, '2024-05-10', '2024-05-18', 'Desk005', 'Problema de conectividad de red', 2);
--- Inserciones para la tabla Atenciones
-INSERT INTO Atenciones (TicketID, FechaProgramada, ProveedorID, ItemID, TipoTicket, EstadoID, CostoAtencion)
-VALUES (1, '2024-01-15', 1, 1, 'Reparaci�n', 1, 1500.00);
-
-INSERT INTO Atenciones (TicketID, FechaProgramada, ProveedorID, ItemID, TipoTicket, EstadoID, CostoAtencion)
-VALUES (2, '2024-02-16', 2, 2, 'Mantenimiento', 2, 800.00);
-
-INSERT INTO Atenciones (TicketID, FechaProgramada, ProveedorID, ItemID, TipoTicket, EstadoID, CostoAtencion)
-VALUES (3, '2024-03-14', 3, 3, 'Reinstalaci�n', 3, 1200.00);
-
-INSERT INTO Atenciones (TicketID, FechaProgramada, ProveedorID, ItemID, TipoTicket, EstadoID, CostoAtencion)
-VALUES (4, '2024-04-24', 4, 4, 'Soluci�n de errores', 1, 2500.00);
-
-INSERT INTO Atenciones (TicketID, FechaProgramada, ProveedorID, ItemID, TipoTicket, EstadoID, CostoAtencion)
-VALUES (5, '2024-05-12', 5, 5, 'Mejora de red', 2, 1800.00);
-GO
 
 
 ----------------------------------------------------------------------------------------
@@ -364,24 +369,171 @@ END
 ----------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------
 
-create proc usp_listarCategoria
+create or alter proc      usp_listarCategoria
 as
 begin
   select CategoriaID,Nombre
   from Categoria
 end
-
-create  proc USP_LISTAR_ITEM
+go
+create  or alter     proc      USP_LISTAR_ITEM
 as 
 begin
   select ItemID,Descripcion
   from Item
 end
+go
 
-
-create proc USP_LISTAR_AGENCIA
+create  or alter    proc     USP_LISTAR_AGENCIA
 as
 begin
   select AgenciaID,Nombre
   from Agencia
 end
+go
+CREATE  or alter    PROC       USP_LISTAR_TICKETS
+AS
+BEGIN
+   SELECT T.TicketID,T.Resumen
+   FROM Tickets AS T
+END
+go
+create  or alter    proc     usp_listar_proovedor
+as
+begin
+   select a.ProveedorID,a.Proveedor
+   from Proveedor as a
+end
+go
+create  or alter    proc     usp_listar_estado
+as
+begin
+   select a.EstadoID
+   from Atenciones as a
+end
+go
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+UPDATE Atenciones
+SET VISIBILIDAD=1
+
+exec usp_CRUD_AtencionES 'SELECCIONAXID',1,'',0,0,'',0,0
+
+EXEC usp_CRUD_AtencionES 'CREATE', 2, '11/11/2001', 1, 1, 'Tipo', 1, 11
+
+create or alter proc usp_CRUD_AtencionES
+ @Indicador VARCHAR(20),
+ @IDTICKET INT,
+ @FECHAPROGRAMADA DATE,
+ @PROVEDORID INT,
+ @IDITEM INT,
+ @TIPOtICKET VARCHAR(100),
+ @ESTADOID INT,
+ @COSTOATENCION DECIMAL
+
+AS 
+BEGIN
+   IF @Indicador='SELECCIONAXID'
+   BEGIN
+     SELECT A.TicketID,
+	        LEFT(A.FechaProgramada,12),
+			A.ProveedorID,
+			A.ItemID,
+			A.TipoTicket,
+			A.EstadoID,
+			A.CostoAtencion
+	 FROM Atenciones AS A
+	 WHERE A.TicketID=@IDTICKET AND
+	       A.VISIBILIDAD=1
+
+   END
+
+    IF @Indicador='SELECCIONATODO'
+   BEGIN
+     SELECT A.TicketID,
+	        LEFT(A.FechaProgramada,12),
+			A.ProveedorID,
+			A.ItemID,
+			A.TipoTicket,
+			A.EstadoID,
+			A.CostoAtencion
+	FROM Atenciones AS A WHERE VISIBILIDAD=1
+   END
+
+   IF @Indicador='CREATE'
+   BEGIN
+     INSERT INTO Atenciones
+	 (
+         TicketID,
+	     FechaProgramada,
+         ProveedorID,
+         ItemID,
+         TipoTicket,
+         EstadoID,
+         CostoAtencion,
+		 VISIBILIDAD
+	 ) VALUES
+	 (
+	 @IDTICKET ,
+     @FECHAPROGRAMADA ,
+     @PROVEDORID ,
+     @IDITEM ,
+     @TIPOtICKET ,
+     @ESTADOID ,
+     @COSTOATENCION ,
+	 1
+	 )
+   END
+
+   IF @Indicador='DELETE'
+   BEGIN
+     update Atenciones
+	 set VISIBILIDAD =0
+	 where TicketID=@IDTICKET
+   END
+
+   IF @Indicador='UPDATE'
+   BEGIN
+     UPDATE Atenciones 
+	    SET 
+	     TicketID=@IDTICKET,
+	     FechaProgramada=@FECHAPROGRAMADA,
+         ProveedorID=@PROVEDORID,
+         ItemID=@IDITEM,
+         TipoTicket=@TIPOtICKET,
+         EstadoID=@ESTADOID,
+         CostoAtencion=@COSTOATENCION
+		 WHERE TicketID=@IDTICKET
+   END
+
+END
+
+
+
+create or alter proc usp_Buscar_Agencia
+ @agenciaID int,
+ @nombre varchar(30),
+ @Distrito varchar(30)
+
+as 
+begin
+  select*
+  from Agencia
+  where (AgenciaID=@agenciaID or @agenciaID='' )and
+        (Nombre like '%'+@nombre+'%' or @nombre='' )and
+		(Distrito like '%'+@Distrito+'%' or @Distrito ='')
+        
+end
+go
+
+exec usp_Buscar_Agencia '','','Mirafl'
+
+
+
+
+
+
+
+
+
+

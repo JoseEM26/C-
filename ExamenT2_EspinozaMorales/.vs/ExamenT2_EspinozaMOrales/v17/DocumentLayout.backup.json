@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Pictures\\C#\\ExamenT2\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Pictures\\C#\\ExamenT2_EspinozaMorales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3ECDE8E8-D117-4FC1-B0BB-500F833E0B6C}|ExamenT2\\ExamenT2_EspinozaMoraless.csproj|c:\\users\\admin\\pictures\\c#\\exament2\\exament2\\views\\ticketandtipo\\mostrartodoticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3ECDE8E8-D117-4FC1-B0BB-500F833E0B6C}|ExamenT2\\ExamenT2_EspinozaMoraless.csproj|solutionrelative:exament2\\views\\ticketandtipo\\mostrartodoticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3ECDE8E8-D117-4FC1-B0BB-500F833E0B6C}|ExamenT2\\ExamenT2_EspinozaMoraless.csproj|c:\\users\\admin\\pictures\\c#\\exament2_espinozamorales\\exament2\\views\\atenciones\\mostrartodo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3ECDE8E8-D117-4FC1-B0BB-500F833E0B6C}|ExamenT2\\ExamenT2_EspinozaMoraless.csproj|solutionrelative:exament2\\views\\atenciones\\mostrartodo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECDE8E8-D117-4FC1-B0BB-500F833E0B6C}|ExamenT2\\ExamenT2_EspinozaMoraless.csproj|c:\\users\\admin\\pictures\\c#\\exament2_espinozamorales\\exament2\\views\\agencia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3ECDE8E8-D117-4FC1-B0BB-500F833E0B6C}|ExamenT2\\ExamenT2_EspinozaMoraless.csproj|solutionrelative:exament2\\views\\agencia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECDE8E8-D117-4FC1-B0BB-500F833E0B6C}|ExamenT2\\ExamenT2_EspinozaMoraless.csproj|c:\\users\\admin\\pictures\\c#\\exament2_espinozamorales\\exament2\\views\\ticketandtipo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3ECDE8E8-D117-4FC1-B0BB-500F833E0B6C}|ExamenT2\\ExamenT2_EspinozaMoraless.csproj|solutionrelative:exament2\\views\\ticketandtipo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECDE8E8-D117-4FC1-B0BB-500F833E0B6C}|ExamenT2\\ExamenT2_EspinozaMoraless.csproj|c:\\users\\admin\\pictures\\c#\\exament2_espinozamorales\\exament2\\dao\\busqueda\\agenciabusqueda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ECDE8E8-D117-4FC1-B0BB-500F833E0B6C}|ExamenT2\\ExamenT2_EspinozaMoraless.csproj|solutionrelative:exament2\\dao\\busqueda\\agenciabusqueda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,20 +25,59 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 229,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MostrarTodoTicket.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Pictures\\C#\\ExamenT2\\ExamenT2\\Views\\TicketAndTipo\\MostrarTodoTicket.cshtml",
-              "RelativeDocumentMoniker": "ExamenT2\\Views\\TicketAndTipo\\MostrarTodoTicket.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Pictures\\C#\\ExamenT2\\ExamenT2\\Views\\TicketAndTipo\\MostrarTodoTicket.cshtml",
-              "RelativeToolTip": "ExamenT2\\Views\\TicketAndTipo\\MostrarTodoTicket.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
+              "Title": "MostrarTodo.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Pictures\\C#\\ExamenT2_EspinozaMorales\\ExamenT2\\Views\\Atenciones\\MostrarTodo.cshtml",
+              "RelativeDocumentMoniker": "ExamenT2\\Views\\Atenciones\\MostrarTodo.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Pictures\\C#\\ExamenT2_EspinozaMorales\\ExamenT2\\Views\\Atenciones\\MostrarTodo.cshtml",
+              "RelativeToolTip": "ExamenT2\\Views\\Atenciones\\MostrarTodo.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T03:17:14.692Z",
+              "WhenOpened": "2024-10-20T04:48:44.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Pictures\\C#\\ExamenT2_EspinozaMorales\\ExamenT2\\Views\\TicketAndTipo\\Index.cshtml",
+              "RelativeDocumentMoniker": "ExamenT2\\Views\\TicketAndTipo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Pictures\\C#\\ExamenT2_EspinozaMorales\\ExamenT2\\Views\\TicketAndTipo\\Index.cshtml",
+              "RelativeToolTip": "ExamenT2\\Views\\TicketAndTipo\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T04:47:54.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Pictures\\C#\\ExamenT2_EspinozaMorales\\ExamenT2\\Views\\Agencia\\Index.cshtml",
+              "RelativeDocumentMoniker": "ExamenT2\\Views\\Agencia\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Pictures\\C#\\ExamenT2_EspinozaMorales\\ExamenT2\\Views\\Agencia\\Index.cshtml",
+              "RelativeToolTip": "ExamenT2\\Views\\Agencia\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAE4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T04:47:17.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgenciaBusqueda.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Pictures\\C#\\ExamenT2_EspinozaMorales\\ExamenT2\\DAO\\Busqueda\\AgenciaBusqueda.cs",
+              "RelativeDocumentMoniker": "ExamenT2\\DAO\\Busqueda\\AgenciaBusqueda.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Pictures\\C#\\ExamenT2_EspinozaMorales\\ExamenT2\\DAO\\Busqueda\\AgenciaBusqueda.cs",
+              "RelativeToolTip": "ExamenT2\\DAO\\Busqueda\\AgenciaBusqueda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T04:47:14.717Z",
               "EditorCaption": ""
             }
           ]

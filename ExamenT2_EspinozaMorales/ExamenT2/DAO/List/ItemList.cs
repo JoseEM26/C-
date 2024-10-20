@@ -11,12 +11,12 @@ namespace ExamenT2.DAO.List
 {
     public class ItemList
     {
-        public List<Item> SeleccionarTodo()
+        public List<item> SeleccionarTodo()
         {
             SqlConnection con = null;
             SqlCommand cmd = null;
             SqlDataReader reader = null;
-            List<Item> lista = new List<Item>();
+            List<item> lista = new List<item>();
             try
             {
                 con = new SqlConnection(ConfigurationManager.ConnectionStrings["db"].ConnectionString);
@@ -30,10 +30,10 @@ namespace ExamenT2.DAO.List
 
                 while (reader.Read())
                 {
-                    Item Item = new Item()
+                    item Item = new item()
                     {
                         ItemID = Convert.ToInt32(reader[0]),
-                        TipoID = Convert.ToInt32(reader[1]),
+                        Descripcion = reader[1].ToString() 
                     };
 
                     lista.Add(Item);

@@ -120,21 +120,33 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AgenciaController.cs" />
+    <Compile Include="Controllers\AtencionesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TicketAndTipoController.cs" />
+    <Compile Include="DAO\Busqueda\AgenciaBusqueda.cs" />
+    <Compile Include="DAO\DaoImpl\DaoAtencionesImpl.cs" />
     <Compile Include="DAO\DaoImpl\DaoTicketImpl.cs" />
     <Compile Include="DAO\Dao.cs" />
     <Compile Include="DAO\DaoImpl\DaoTipoImpl.cs" />
     <Compile Include="DAO\List\AgenciaList.cs" />
     <Compile Include="DAO\List\CategoriaList.cs" />
+    <Compile Include="DAO\List\EstadoList.cs" />
     <Compile Include="DAO\List\ItemList.cs" />
+    <Compile Include="DAO\List\ProveedorList.cs" />
+    <Compile Include="DAO\List\TicketList.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Agencia.cs" />
+    <Compile Include="Models\AgenciaCompleta.cs" />
+    <Compile Include="Models\Atenciones.cs" />
     <Compile Include="Models\Categoria.cs" />
-    <Compile Include="Models\Item.cs" />
+    <Compile Include="Models\Estado.cs" />
+    <Compile Include="Models\item.cs" />
+    <Compile Include="Models\Proveedor.cs" />
     <Compile Include="Models\Ticket.cs" />
+    <Compile Include="Models\TicketListar.cs" />
     <Compile Include="Models\Tipo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -200,6 +212,12 @@
     <Content Include="Views\TicketAndTipo\EditTipo.cshtml" />
     <Content Include="Views\TicketAndTipo\DeleteTipo.cshtml" />
     <Content Include="Views\TicketAndTipo\Index.cshtml" />
+    <Content Include="Views\Atenciones\MostrarTodo.cshtml" />
+    <Content Include="Views\Atenciones\Details.cshtml" />
+    <Content Include="Views\Atenciones\EditTipo.cshtml" />
+    <Content Include="Views\Atenciones\Delete.cshtml" />
+    <Content Include="Views\Atenciones\Create.cshtml" />
+    <Content Include="Views\Agencia\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
