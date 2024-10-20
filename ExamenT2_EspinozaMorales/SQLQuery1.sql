@@ -87,7 +87,6 @@ create TABLE Atenciones (
 );
 GO
 
-
 -- Inserciones para la tabla Atenciones
 INSERT INTO Atenciones (TicketID, FechaProgramada, ProveedorID, ItemID, TipoTicket, EstadoID, CostoAtencion)
 VALUES (1, '2024-01-15', 1, 1, 'Reparaci�n', 1, 1500.00);
@@ -417,7 +416,7 @@ go
 UPDATE Atenciones
 SET VISIBILIDAD=1
 
-exec usp_CRUD_AtencionES 'SELECCIONAXID',1,'',0,0,'',0,0
+exec usp_CRUD_AtencionES 'SELECCIONAXID',2,'',0,0,'',0,0
 
 EXEC usp_CRUD_AtencionES 'CREATE', 2, '11/11/2001', 1, 1, 'Tipo', 1, 11
 
@@ -509,7 +508,9 @@ BEGIN
 END
 
 
-
+---------------------------------
+---------------------------------
+---------------------------------
 create or alter proc usp_Buscar_Agencia
  @agenciaID int,
  @nombre varchar(30),
@@ -519,14 +520,14 @@ as
 begin
   select*
   from Agencia
-  where (AgenciaID=@agenciaID or @agenciaID='' )and
+  where (AgenciaID=@agenciaID or @agenciaID=0 )and
         (Nombre like '%'+@nombre+'%' or @nombre='' )and
 		(Distrito like '%'+@Distrito+'%' or @Distrito ='')
         
 end
 go
 
-exec usp_Buscar_Agencia '','','Mirafl'
+exec usp_Buscar_Agencia 0,'','Mirafl'
 
 
 
